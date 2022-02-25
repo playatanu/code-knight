@@ -1,4 +1,12 @@
-html,
+html{
+  --color-blue: #0969DA;
+  --color-black: #24292F;
+  --color-gray: #9199A1;
+  --color-gray-blue: #EFF6FD;
+  --color-white: #E5E5E5;
+  --color-green:#34B158;
+  --color-green-dark:#34B158;
+}
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +21,24 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }

@@ -1,0 +1,49 @@
+.main {
+  width: 100%;
+  height: 75px;
+  background-color: var(--color-black);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rightside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plusicon {
+  margin-right: 15px;
+  color: var(--color-white);
+}
+.title {
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.profilepic {
+  border-radius: 100%;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.plusicon:hover {
+  cursor: pointer;
+}
+
+/* @media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+} */
+
+.color {
+  color: crimson;
+  font-size: xx-large;
+}

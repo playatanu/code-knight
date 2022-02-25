@@ -1,0 +1,67 @@
+.main {
+  margin: 0 200px 100px 200px;
+}
+
+.timeandrefress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timerBox {
+  display: flex;
+}
+
+.timeItem {
+  padding: 0 10px 0 0;
+}
+
+.btn {
+  width: 100%;
+  color: white;
+  background-color: var(--color-green);
+}
+
+.input {
+  margin: 10px 0 10px 0;
+  width: 100%;
+  height: 30px;
+  font-size: medium;
+  padding: 5px;
+}
+
+.correct {
+  font-weight: bold;
+  color: green;
+}
+.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+.active {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 320px) {
+  .main {
+    margin: 0 10px 50px 10px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .main {
+    margin: 0 10px 50px 10px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .main {
+    margin: 0 100px 50px 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .main {
+    margin: 0 200px 100px 200px;
+  }
+}

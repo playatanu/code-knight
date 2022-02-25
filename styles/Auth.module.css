@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.inputBox {
+  direction: none;
+  margin-bottom: 10px;
+  border: solid black 1px;
+  padding: 8px;
+}
+
+.button {
+  direction: none;
+  margin-bottom: 10px;
+  padding: 8px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.link:hover {
+  cursor: pointer;
+}

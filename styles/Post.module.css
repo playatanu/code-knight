@@ -1,0 +1,61 @@
+.main {
+  padding: 20px;
+}
+
+.container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.userBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.username {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.time {
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.title {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.codeBox {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: 10px 0px 10px 00px;
+  justify-content: space-around;
+  border: rgb(218, 218, 218) solid 2px;
+}
+
+.CodeEditor {
+  height: 200px;
+  cursor: pointer;
+}
+
+/* /* @media only screen and (max-width: 720px) {
+  .codeContainer {
+    margin: 0px 5vw 0px 5vw;
+  }
+} */

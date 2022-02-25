@@ -1,0 +1,56 @@
+.main {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-left: 200px;
+  margin-right: 200px;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  margin: 10px 0px 10px 0px;
+  justify-content: space-between;
+}
+
+.inputBox {
+  display: flex;
+  margin: 10px 0px 10px 0px;
+  justify-content: space-between;
+}
+
+.codeBox {
+  border: black solid 1px;
+}
+
+.inputDec {
+  width: 100%;
+  padding: 5px;
+}
+
+.input {
+  margin: 5px 0 5px 0;
+}
+
+.inputTitle {
+  padding: 5px;
+  height: 30px;
+}
+
+.codelen {
+  margin: 5px;
+}
+
+.postBtn {
+  height: 30px;
+  color: white;
+  padding: 5px 20px 5px 20px;
+  cursor: pointer;
+  background-color: var(--color-green);
+}
